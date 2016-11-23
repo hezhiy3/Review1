@@ -1,3 +1,9 @@
 This is a review of what I have learned about Python.
 I will organize my knowledge in the following structure:
 Symbols--Name--Role(what for).
+
+  print -- print -- Output
+  
+  #     -- octothorpe \ pound \ hash \ mesh ... -- Make comments
+
+  
