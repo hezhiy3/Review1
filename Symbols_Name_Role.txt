@@ -6,4 +6,29 @@ Symbols--Name--Role(what for).
   
   #     -- octothorpe \ pound \ hash \ mesh ... -- Make comments
 
-  
+  +     -- plus  -- Do mathematics plus
+
+  -     -- minus -- Do mathematics minus
+
+  /     -- slash -- Do mathematics divide
+
+  *     -- asterisk -- Do mathematics multiply
+
+  %     -- percent  -- Get remaining part after division
+
+  <     -- less-than -- Do comparison
+
+  >     -- greater-than -- Do comparison
+
+  <=    -- less-than-equal -- Do comparison
+
+  >=    -- greater-than-equal -- Do comparison
+
+  =     -- equals -- Assign a value to a variable; Do mathematics equation
+
+  _     -- underscore -- Put an imaginary space between words in variable names
+
+  ==    -- double-equal -- Test if two things have the same value
+
+
+
