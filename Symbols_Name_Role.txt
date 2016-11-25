@@ -14,7 +14,7 @@ Symbols--Name--Role(what for).
 
   *     -- asterisk -- Do mathematics multiply
 
-  %     -- percent  -- Get remaining part after division
+  %     -- percent  -- Get remaining part after division; format character
 
   <     -- less-than -- Do comparison
 
@@ -30,5 +30,72 @@ Symbols--Name--Role(what for).
 
   ==    -- double-equal -- Test if two things have the same value
 
+  d     -- string formatting conversion type -- Signed integer decimal
 
+  i     -- string formatting conversion type -- Signed integer decimal
 
+  o     -- string formatting conversion type -- Signed octal value
+
+  u     -- string formatting conversion type -- (Obsolete type)It is identical to 'd'
+
+  x     -- string formatting conversion type -- Signed hexadecimal (lowercase)
+
+  X     -- string formatting conversion type -- Signed hexadecimal (uppercase)
+
+  e     -- string formatting conversion type -- Floating point exponential format (lowercase)
+
+  E     -- string formatting conversion type -- Floating point exponential format (uppercase)
+
+  f     -- string formatting conversion type -- Floating point decimal format
+
+  F     -- string formatting conversion type -- Floating point decimal format
+
+  g     -- string formatting conversion type -- Floating point format.Uses lowercase exponential format 
+                                                if exponent is less than -4 or not less than precision, decimal format otherwise
+
+  G     -- string formatting conversion type -- Floating point format.Uses uppercase exponential format 
+                                                if exponent is less than -4 or not less than precision, decimal format otherwise
+
+  c     -- string formatting conversion type -- Single character (accepts integer or single character string)
+
+  r     -- string formatting conversion type -- String (converts any Python object using repr())
+
+  s     -- string formatting conversion type -- String (converts any Python object using str())
+
+  %     -- string formatting conversion type -- No argument is converted, results in a '%' character in the result
+
+  \     -- backslash -- Escape character
+
+  \\    -- escape sequence -- Backslash (\)
+
+  \'    -- escape sequence -- Single quote (')
+
+  \"    -- escape sequence -- Double quote (")
+
+  \a    -- escape sequence -- ASCII Bell (BEL)
+
+  \b    -- escape sequence -- ASCII Backspace (BS)
+
+  \f    -- escape sequence -- ASCII Formfeed (FF)
+
+  \n    -- escape sequence -- ASCII Linefeed (LF)
+
+  \r    -- escape sequence -- ASCII Carriage Return (CR)
+
+  \t    -- escape sequence -- ASCII Horizontal Tab (TAB)
+
+  \v    -- escape sequence -- ASCII Vertical Tab (VT)
+
+  \ooo  -- escape sequence -- ASCII character with octal value ooo
+
+  \xhh  -- escape sequence -- ASCII character with hex value hh...
+
+  \N{name} -- escape sequence --Character named name in the Unicode database (Unicode only)
+
+  \uxxxx  -- escape sequence -- Character with 16-bit hex value xxxx (Unicode only)
+
+  \Uxxxxxxxx -- escape sequence -- Character with 32-bit hex value xxxxxxxx (Unicode only)
+
+  """ """ -- triple double quotes -- Works like a string,but can put unlimited lines of text in it
+
+  
