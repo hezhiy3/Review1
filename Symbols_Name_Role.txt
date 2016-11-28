@@ -98,6 +98,28 @@ Symbols--Name--Role(what for).
 
   """ """ -- triple double quotes -- Works like a string,but can put unlimited lines of text in it
 
-  raw_input([prompt]) -- built-in function -- Reads a line from input, coverts it to a string (stripping a trailing newline), and returns that
+  raw_input() -- built-in function -- Reads a line from input, coverts it to a string (stripping a trailing newline), and returns that
+
+  import -- import -- Adds modules to your script
+
+  argv  -- argument variable -- Holds the variables you pass to Python script
+
+  open() -- built-in function -- Open a file
+
+  read() -- file method -- Read a file, returned as a string
+
+  .      -- (not known yet) -- Give a file a command by using the ".", the name of the command, and parameters
+
+  close() -- file method  -- Close the file
+
+  readline -- file method -- Reads just one line of a text file
+
+  truncate() -- file method -- Empties the file
+
+  write() -- file method -- Writes stuff to the file
+
+  exists() -- operating system command -- Returns True if a file exists, based on its name in a string as an argument. It returns False if not.
+
+  len() -- built-in function -- Gets the length of the string that you pass to it and returns that as a number
 
   
