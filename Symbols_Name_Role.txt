@@ -98,7 +98,7 @@ Symbols--Name--Role(what for).
 
   """ """ -- triple double quotes -- Works like a string,but can put unlimited lines of text in it
 
-  raw_input() -- built-in function -- Reads a line from input, coverts it to a string (stripping a trailing newline), and returns that
+  raw_input() -- built-in function -- Reads a line from input, coverts it to a string (stripping a trailing newline)
 
   import -- import -- Adds modules to your script
 
@@ -121,5 +121,17 @@ Symbols--Name--Role(what for).
   exists() -- operating system command -- Returns True if a file exists, based on its name in a string as an argument. It returns False if not.
 
   len() -- built-in function -- Gets the length of the string that you pass to it and returns that as a number
+
+  def   -- built-in statement -- Make functions
+
+  *args -- asterisk args -- Pass parameters to your function
+
+  :     -- colon -- Ends a def statement, and start indenting
+
+  seek() -- file method -- Set position of the read/write pointer in a file 
+
+  +=    -- (shorthand notation) -- Contraction of mathematic operators
+
+  return -- built-in function -- Return anything you can put to the right side of "="
 
   
